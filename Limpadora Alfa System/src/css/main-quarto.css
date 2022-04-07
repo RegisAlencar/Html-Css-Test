@@ -1,0 +1,150 @@
+.main-quarto-banner {
+    background-image: linear-gradient( to bottom, #44d6fe 20%, #169fc8 70%);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+}
+
+.solicite-orcamento {
+    background-color: #ffff;
+    width: 700px;
+    height: 750px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.info-solicite-orcamento {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.info-solicite-orcamento p {
+    color: #888784;
+}
+
+.info-solicite-orcamento h2 {
+    margin-bottom: 15px;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+
+.formulario p {
+    margin-bottom: 80px;
+    margin-left: 40px;
+    color: #032b56;
+}
+
+.formulario label {
+    margin-left: 30px;
+    color: #032b56;
+}
+
+.formulario input {
+    height: 50px;
+    width: 230px;
+    margin-left: -50px;
+}
+
+.formulario textarea {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.formulario button {
+    background-color: #032b56; 
+    border: none;
+    color: #ffff;
+    padding: 15px 32px;
+    text-align: inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 580px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 30px;
+    
+}
+
+.informacoes-quarto-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+    
+}
+
+.button-quarto-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: -100px;
+    
+}
+
+.button-quarto-banner button {
+    margin-top: 25px;
+    background-color: #44d6fe; 
+    border: 2px solid white;
+    color: #ffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.icon-quarto-banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.quarto-banner-lado-direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 80px;
+    margin-top: -80px;
+    color: #ffff;
+}
+
+.icones-quarto-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icones-quarto-banner img {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    margin-bottom: -20px;
+    margin-right: 5px;
+}
+
+.icones-quarto-banner h3 {
+    margin-right: -5px;
+    margin-top: 40px;
+}
+   

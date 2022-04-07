@@ -1,0 +1,114 @@
+.informacoes-loja {
+    background-color: #032b56;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 40px;
+    
+}
+
+.informacoes-loja img {
+    width: 20px;
+    height: 20px;
+    border-right: 10px;
+}
+
+.informacoes-loja h5 {
+    margin-left: 6px;
+}
+
+.informacoes-loja .horario-funcionamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d5d3c7;
+    margin-right: 20px;
+}
+
+.informacoes-loja .email-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d5d3c7;
+    margin-right: 80px;
+}
+
+.header-botoes {
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-botoes .container-esquerda img {
+    height: 70px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header-botoes .container-esquerda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.container-esquerda ul b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    color: #032b56;
+}
+
+.container-esquerda li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.header-botoes .container-direita img{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer
+}
+
+.header-botoes .container-direita {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.container-direita img {
+    margin-right: 6px;
+}
+
+.container-direita h2 {
+    margin-right: 20px;
+}
+
+.container-direita button {
+
+        background-color: #00d28f; 
+        border: none;
+        color: #ffff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        border-radius: 5px;
+        margin-right: 30px;
+    }

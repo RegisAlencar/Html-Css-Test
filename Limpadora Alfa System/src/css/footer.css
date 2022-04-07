@@ -1,0 +1,126 @@
+.footer-absoluto {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #032b56
+}
+
+.informacoes-footer-esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 100px;
+    color: #d5d3c7;
+    
+}
+
+.informacoes-footer-esquerdo img {
+    height: 100%;
+    width: 250px;
+    margin-left: -3px;
+    margin-bottom: 25px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.telefone-footer img{
+    margin-left: -1px;
+    margin-top: 25px;
+    height: 20px;
+    width: 20px;
+}
+
+.telefone-footer h3 {
+    color: #44d6fe;
+}
+
+.telefone-footer {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes-footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #d5d3c7;
+    cursor: pointer;
+    margin-top: -120px;
+}
+
+.informacoes-footer-links h4 {
+    color: #ffff;
+    cursor: auto;
+}
+
+.informacoes-footer-direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #d5d3c7;
+    cursor: pointer;
+    margin-top: -100px;
+}
+
+.informacoes-footer-direito h4 {
+    color: #ffff;
+    cursor: auto;
+}
+
+.footer-midias-sociais {
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-midias-sociais button {
+    margin-top: 25px;
+    background-color: #44d6fe; 
+    color: #ffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.direitos-reservados {
+    color: #032b56;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icones-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -255px;
+}
+
+.icones-footer li {
+    margin-left: 15px;
+}
+
+.icones-footer img {
+    height: 25px;
+    width: 25px;
+}
